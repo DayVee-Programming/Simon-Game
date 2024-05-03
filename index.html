@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="./style.css" />
+    <audio id="audio1">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" />
+    </audio>
+    <audio id="audio2">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" />
+    </audio>
+    <audio id="audio3">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" />
+    </audio>
+    <audio id="audio4">
+      <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" />
+    </audio>
+  </head>
+  <body>
+    <div class="box">
+      <div class="intro">Pass 10 levels to win the Simon game</div>
+      <div class="simon">
+        <div class="angle" green></div>
+        <div class="angle" red></div>
+        <div class="angle" yellow></div>
+        <div class="angle" blue></div>
+      </div>
+      <div class="info">
+        <button class="info__btn">Play</button>
+        <p class="info__text"></p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
