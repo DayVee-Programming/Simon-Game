@@ -25,8 +25,7 @@ img {
 }
 
 .simon {
-  max-width: 400px;
-  width: 100%;
+  width: min(100%, 400px);
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
@@ -36,8 +35,7 @@ img {
 }
 
 .angle {
-  max-width: 200px;
-  width: 100%;
+  width: min(100%, 200px);
   height: 200px;
   border: 3px solid black;
   transition: 0.3s;
