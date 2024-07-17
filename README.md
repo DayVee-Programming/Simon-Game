@@ -4,7 +4,7 @@ Simon is an electronic game of short-term memory.
 
 ## Screenshots from the project
 
-<img src="/screenshot1.jpg" />
+<img src="./images/screenshot1.png" />
 
 ## How to run the project 
 

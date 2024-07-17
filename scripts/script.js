@@ -20,6 +20,7 @@ class Game {
     this.start.addEventListener("click", () => {
       this.hasInteracted = true;
       clearInterval(this.interval);
+      this.counter.classList.add("active");
       if (this.hasInteracted || this.hasWon) this.startGame();
     });
     this.angles.forEach((angle) => {
